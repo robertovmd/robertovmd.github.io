@@ -1,0 +1,45 @@
+html {
+	font-size: 10px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+	font-size: 65px;
+	text-align: center;
+}
+
+p, li{
+	font-size: 16px;
+	line-height: 2;
+	letter-spacing: 1px;
+}
+
+html {								/*Cambiando el color de nuestra pagina*/ 
+	background-color: #00539F;
+}
+
+body {								/*Dandole forma a nuestro cuerpo de la pagina*/
+	width: 600px;					
+	margin: 0 auto;
+	background-color: #FF9500;
+	padding: 0 20px 20px 20px;
+	border: 5px solid black;
+}
+
+h1 {								/*Posicionando y personalizando nuestro titulo de la pagina principal*/
+	margin: 0;
+	padding: 20px 0;
+	color: #00539F;
+	text-shadow: 3px 3px 1px black;	/*primer valor coloca desplazamiento horizontal de la sombra del texto
+									  segundo valor coloca el desplazamiento vertical de la dombra del texto
+									  el tercer valor coloca el radio de difuminacion de la sombra, un valor mas grande resultara en una sombra mas difuminada
+									  el cuarto valor coloca el color base de la sombra */
+}
+
+img {								/*Centrando la imagen*/
+	display: block;
+	margin: 0 auto;
+}
+
+
+
